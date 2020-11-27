@@ -227,7 +227,7 @@ docker service ps <service>
 </p>
 </details>
 
-<details><summary>How to find out which nodes are running the service?</summary>
+<details><summary>How to find out which containers are running on the node?</summary>
 <p>
  
 ```
