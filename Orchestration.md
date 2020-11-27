@@ -91,15 +91,6 @@ docker run <image>
 <p>
 
 ```
-When Docker restarts, both the TLS key used to encrypt communication among swarm nodes, and the key used to encrypt and decrypt Raft logs on disk, are loaded into each manager node’s memory.
-```
-</p>
-</details>
-
-<details><summary>What is the autolock feature in the Docker swarm?</summary>
-<p>
-
-```
 When Docker restarts, both the TLS key used to encrypt communication among swarm nodes, and the key used to encrypt and decrypt Raft logs on disk, are loaded into each manager node’s memory. Docker 1.13 introduces the ability to protect the mutual TLS encryption key and the key used to encrypt and decrypt Raft logs at rest, by allowing you to take ownership of these keys and to require manual unlocking of your managers. This feature is called autolock.
 ```
 </p>
